@@ -21,5 +21,6 @@ $(function() {
 
     $(window).on('load', function () {
         $('[data-splitting], .banner').addClass('loaded');
+        $('.loader').fadeOut('fast');
     });
 });
